@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.icon{
+    margin-left: auto;
+}
+i{
+    margin-left: 10px;
+}
+.phone i{
+    margin-right: 10px;
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.home a{
+    margin-left: 15px;
+    color: black ;
+    font-size: x-large;
+
+}
+.search{
+    
+    border:transparent;
+}
+::placeholder{
+    color: black;
+    font-size: large;
+
+}
+.a1{
+    border: 1px solid black;
+}
+h2{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 45px;
+    color: blue;
+    text-decoration: underline;
+   
+}
+.card1{
+    text-align: center;
+    /* background-color: whitesmoke; */
+    
+}
+.info{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.info img{
+    margin-left: 25px;
+    padding-right: 25px;
+    
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.but{
+    margin-right: 200px;
+}
+#i1{
+    background-color:whitesmoke;
+    margin-right: 20px;
+}
+#i2{
+    background-color:whitesmoke;
+    margin-right: 20px;
+}
+#i3{
+    background-color:whitesmoke;
+    margin-right: 20px;
+}
+.foot-panel2{
+    background-color:#222f38 ;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
